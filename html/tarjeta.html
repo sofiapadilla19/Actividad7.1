@@ -1,0 +1,230 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Sriracha&display=swap" rel="stylesheet">
+        <style>
+            body{
+              background-image: url('../imagenes/fondo.webp');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+          </style> 
+        <title>Javascript</title>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <header id="arriba">
+            <section>
+                <div id="menu">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container-fluid">
+                          <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>                     
+                            </button>
+                            <img src="../imagenes/logo.png" id="logo">
+                          </div>
+                          <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../index.html">Inicio</a></li>                  
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </section>
+        </header>
+        <section id="titulot">Crea tu tarjeta de felicitación</section>
+        <section id="tema">
+            <section id="temaesc">
+                <div id="temaicon">
+                    <img src="../imagenes/tema.png"  alt="https://www.flaticon.es/autores/freepik" class="imagens">
+                </div>
+                <div id="tematitulo">
+                    <h4>Elige un tema</h4>
+                </div>
+            </section>
+            <section id="temaopciones">
+                <br>
+                <input type="radio" name="elecciontema" value="San Valentin" id="san">San Valentin
+                <label style="margin-left:400px;" ></label>
+                <input type="radio" name="elecciontema" value="Feliz Cumpleaños" id="fel">Feliz Cumpleaños 
+                <label style="margin-left:400px;" ></label>
+                <input type="radio" name="elecciontema" value="Motivación" id="mot">Motivación
+            </section>
+        </section>
+        <section id="img">
+            <section id="imgesc">
+                <div id="imgicon">
+                    <img src="../imagenes/imagen.png"  alt="https://www.flaticon.es/autores/freepik" class="imagens">
+                </div>
+                <div id="imgtitulo">
+                    <h4>Elige una imagen</h4>
+                </div>
+            </section>
+            <section id="imgopciones">
+                <div class="columna">
+                    <img src="../imagenes/valentin.jpg"  alt="San valentin" class="imageno " id="imgtu">
+                    <br>
+                    <input type="Radio" name="eleccionimagen" value="imgtu" id="imgopcu">San Valentin
+                </div>
+                <div class="columna">
+                    <img src="../imagenes/cumple.jpg"  alt="Feliz cumpleaños" class="imageno" id="imgtd">
+                    <br>
+                    <input type="Radio" name="eleccionimagen" value="imgtd" id="imgopcd">Feliz Cumpleaños 
+                </div>
+                <div class="columna">
+                    <img src="../imagenes/motivacion.jpg"  alt="Motivación" class="imageno" id="imgtt">
+                    <br>
+                    <input type="Radio" name="eleccionimagen" value="imgtt" id="imgopct">Motivación
+                </div>
+            </section>
+        </section>
+        <section id="datos">
+            <section id="datosesc">
+                <div id="datosicon">
+                    <img src="../imagenes/lapiz.png"  alt="https://www.flaticon.es/autores/dinosoftlabs" class="imagens">
+                </div>
+                <div id="datostitulo">
+                    <h4>Ingresa los datos</h4>
+                </div>
+            </section>
+            <section id="datosopciones">
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="#">
+                            <!-- Left Inputs -->
+                            <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                                <!-- Name -->
+                                <input type="text" name="titulo" id="title" required="required" class="form" placeholder="Ingresa el titulo" />
+                                <!-- Email -->
+                                <input type="email" name="subtitulo" id="subtitle" required="required" class="form" placeholder="Ingresa el subtitulo" />
+                                <!-- Subject -->
+                                <input type="text" name="persona" id="subject" required="required" class="form" placeholder="Ingresa el nombre de la persona" />
+                            </div><!-- End Left Inputs -->
+                            <!-- Right Inputs -->
+                            <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                                <!-- Message -->
+                                <textarea name="Ingresa tu mensaje" id="message" class="form textarea"  placeholder="Ingresa tu mensaje"></textarea>
+                            </div><!-- End Right Inputs -->
+                            </div><!-- End Bottom Submit -->
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->    
+            </section>
+        </section>
+        <section id="color">
+            <section id="coloresc">
+                <div id="coloricon">
+                    <img src="../imagenes/color.png"  alt="https://www.flaticon.es/autores/freepik" class="imagens">
+                </div>
+                <div id="colortitulo">
+                    <h4>Elige el color</h4>
+                </div>
+            </section>
+            <section id="coloropciones">
+                <br>
+                <input type="color" name="color" id="bg" style="margin-left: 50px;">
+                <input type="button" value="Generar" onclick="Creador();">
+            </section>
+        </section>
+        <script type="text/javascript">
+            function Creador(){
+                var Titu,Sub,Men,Per,Col,Autor,Fecha;
+                
+                Titu=document.getElementById("title").value;
+                Sub=document.getElementById("subtitle").value;
+                Men=document.getElementById("message").value;
+                Per=document.getElementById("subject").value;
+                Col=document.getElementById("bg").value;
+                Autor=prompt("Ingresa tu nombre")
+                Fecha=new Date();
+        
+                    
+                //SanValentin
+                if(document.getElementById("san").checked == true){
+                    
+                    if(document.getElementById("imgopcu").checked == true){
+                        
+                        document.write('<article style="font-family: Dancing Script, cursive; color: pink; text-align: center;">'+'<audio src="../media/goodtobetrue.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/valentin.jpg" width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                
+                document.body.style.backgroundColor=Col;
+                
+        }
+            else if(document.getElementById("imgopcd").checked == true){
+        
+                document.write('<article style="font-family: Dancing Script, cursive; color: pink; text-align: center;">'+'<audio src="../media/goodtobetrue.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/cumple.jpg" width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+        else if(document.getElementById("imgopct").checked == true){
+        
+                document.write('<article style="font-family: Dancing Script, cursive; color: pink; text-align: center;">'+'<audio src="../media/goodtobetrue.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/motivacion.jpg"  width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+        
+            }
+            //Cumple
+            else if(document.getElementById("fel").checked == true){
+                    if(document.getElementById("imgopcu").checked == true){
+        
+                document.write('<article style="font-family: Indie Flower, cursive; color: purple; text-align: center;">'+'<audio src="../media/cumpleaños.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/valentin.jpg" width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+            else if(document.getElementById("imgopcd").checked == true){
+        
+                document.write('<article style="font-family: Indie Flower, cursive; color: purple; text-align: center;">'+'<audio src="../media/cumpleaños.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/cumple.jpg" width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+        else if(document.getElementById("imgopct").checked == true){
+        
+                document.write('<article style="font-family: Indie Flower, cursive; color: purple; text-align: center;">'+'<audio src="../media/cumpleaños.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/motivacion.jpg"  width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+        
+            }
+        //Motivacional
+            else if(document.getElementById("mot").checked == true){
+                    if(document.getElementById("imgopcu").checked == true){
+        
+                document.write('<article style="font-family: font-family: Sriracha, cursive; color: PaleTurquoise; text-align: center;">'+'<audio src="../media/knowyoucan.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/valentin.jpg" width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+            else if(document.getElementById("imgopcd").checked == true){
+        
+                document.write('<article style="font-family: font-family: Sriracha, cursive; color: PaleTurquoise; text-align: center;">'+'<audio src="../media/knowyoucan.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/cumple.jpg" width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+        else if(document.getElementById("imgopct").checked == true){
+        
+                document.write('<article style="font-family: font-family: Sriracha, cursive; color: PaleTurquoise; text-align: center;">'+'<audio src="../media/knowyoucan.mp3" autoplay="" loop>'+'</audio>'+'<h1 style="font-size: 50px; text-align: center;">'+Titu+'</h1>'+'<h2 style="font-size: 40px; text-align: center;">'+Sub+'</h2>'+'<br>'+'<img src="../imagenes/motivacion.jpg"  width="70%" height="60%">'+'<br>'+'<p style="text-align: center;">'+Men+'</p>'+'<br>'+'<br>'+"Me despido, "+Per+"."+'<br>'+'<h3 style="float: right;">'+Autor+'</h3>'+'<h3 style="float:left;">'+Fecha+'</h3>'+'</article>');
+                document.body.style.backgroundColor=Col;
+        }
+        
+            }
+            }
+        </script>
+        
+        <footer>
+            <div id="autor">
+                <p>Laura Sofia Padilla Cabrera</p>
+                <p>14-Junio-2020</p>
+                <p>Email:ls.padilla.cabrera18@gmail.com</p>
+            </div>
+            <div id="footerimg">
+                <img src="../imagenes/yo.png" id="imgyo">
+            </div>
+        </footer>
+    </body>
+    </html>

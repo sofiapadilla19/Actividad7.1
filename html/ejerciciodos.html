@@ -1,0 +1,91 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <style>
+            body{
+              background-image: url('../imagenes/fondo.webp');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+          </style> 
+        <title>Javascript</title>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <header id="arriba">
+            <section>
+                <div id="menu">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container-fluid">
+                          <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>                     
+                            </button>
+                            <img src="../imagenes/logo.png" id="logo">
+                          </div>
+                          <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                              <li><a href="../index.html">Inicio</a></li>                   
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </section>
+        </header>
+        <section>
+            <h1>Vota por tu ciudad</h1>
+            <form action="#" method="post" name="formu">
+              <label>Elige tu ciudad</label>
+              <select name="parte">
+                <option value="Norte">Norte</option>
+                <option value="Sur">Sur</option>
+                <option value="Centro">Centro</option>
+              </select>
+              <input type="button" onclick="votar();" value="votar"/> 
+            </form>
+        
+            <article id="mensaje"></article>
+          </section>
+        
+          <script type="text/javascript">
+            function votar()
+            {
+              if(document.formu.parte.value=="Norte")
+              {
+                document.getElementById("mensaje").innerHTML="Ha elegido la parte Norte."
+              }
+              else
+              {
+                if(document.formu.parte.value=="Sur")
+              {
+                document.getElementById("mensaje").innerHTML="Ha elegido la parte Sur."
+              }
+              else
+              {
+                document.getElementById("mensaje").innerHTML="Ha elegido la parte Centro."
+              }
+              }
+            }
+          </script>
+        </script>
+        <footer>
+            <div id="autor">
+                <p>Laura Sofia Padilla Cabrera</p>
+                <p>14-Junio-2020</p>
+                <p>Email:ls.padilla.cabrera18@gmail.com</p>
+            </div>
+            <div id="footerimg">
+                <img src="../imagenes/yo.png" id="imgyo">
+            </div>
+        </footer>
+    </body>
+    </html>

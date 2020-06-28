@@ -1,0 +1,302 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Menu*/
+/*menu*/
+#menu{
+    width: 100%;
+    height: 10%;
+    text-decoration:none;
+    display: block;
+}
+#menu ul{
+	margin-left:40%;
+    text-align:right;
+}
+#menu ul li{
+    display: inline-block;
+}
+.navbar-header{
+    text-decoration: none;
+}
+.navbar li a, .navbar .navbar-brand{
+    color:#000000 !important; 
+}
+.navbar-nav li a:hover{
+	color:#474747 !important; 
+}
+.navbar-nav li.active a{
+	background-color:#29292c !important; 
+}
+.navbar-default .navbar-toggle{
+	border-color:transparent; 
+}
+#logo{
+    border-radius: 35px;
+    width: 50px;
+    height: 50px;
+}
+/*Indice*/
+#indice{
+    display: block;
+    width: 90%;
+    height: 80%;
+    margin-left: 40px;
+    color: black;
+}
+#Ejerciciosclase ul li{
+    list-style:none;
+}
+#Ejerciciosclase ul li a{
+    text-decoration: none;
+    color: black;
+}
+#Ejerciciosclase ul li a:hover{
+    color: gray;
+}
+#Ejercicios ul li{
+    list-style: none;
+}
+#Ejercicios ul li a{
+    text-decoration: none;
+    color: black;
+}
+#Ejercicios ul li a:hover{
+    color: gray;
+}
+/*Footer*/
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: #00ffff;
+    position: fixed;
+    left:0px;
+   bottom:0px;
+   background: -webkit-linear-gradient(left, rgb(169, 230, 238) , rgb(112, 197, 223)); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(right, rgb(169, 230, 238), rgb(78, 142, 161)); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(right, rgb(169, 230, 238),rgb(78, 142, 161)); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to right, rgb(169, 230, 238) ,rgb(10, 73, 146)); /* Standard syntax */
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a:hover{
+	background-color:#a59c9d;
+    font-size: 60px;
+    border-radius: 30px;
+}
+#autor{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+#footerimg{
+    display: inline-block;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+#imgyo{
+    width: 120px;
+    height: 110px;
+}
+/*Tarjeta de felicitacion*/
+.imagens{
+    width:30px;
+    height: 30px;
+      object-fit: cover;
+      object-position: center center;
+}
+#titulot{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: -25px;
+}
+/*Tema*/
+#tema{
+    width: 100%;
+    height: 8%;
+    background-color: #00ffff;
+}
+#temaesc{
+    width: 100%;
+    height: 27%;
+    display: block;
+    margin-bottom: 5px;
+}
+#temaicon{
+    width:2%;
+    height: 100%;
+    color: black;
+    display: inline-block;
+}
+#tematitulo{
+    display: inline-block;
+    width:97%;
+    height: 100%;
+}
+#temaopciones{
+    width: 100%;
+    height: 71%;
+    display: block;
+    text-align: center;
+}
+/*Imagen*/
+#img{
+    width: 100%;
+    height: 20%;
+    background-color: blueviolet;
+}
+#imgesc{
+    width: 100%;
+    height: 25%;
+}
+#imgicon{
+    width:2%;
+    height: 100%;
+    color: black;
+    display: inline-block;
+}
+#imgtitulo{
+    display: inline-block;
+    width:97%;
+    height: 100%;
+}
+#imgopciones{
+    width: 100%;
+    height: 74%;
+    display: block;
+}
+.columna {
+    width:33%;
+    float:left;
+    text-align: center;
+}
+.imageno{
+    width:100px;
+    height: 90px;
+      object-fit: cover;
+      object-position: center center;
+}
+/*Datos*/
+#datos{
+    width: 100%;
+    height: 30%;
+    background-color: coral;
+    overflow: auto;
+}
+#datosesc{
+    width: 100%;
+    height: 25%;
+}
+#datosicon{
+    width:2%;
+    height: 100%;
+    color: black;
+    display: inline-block;
+}
+#datostitulo{
+    display: inline-block;
+    width:97%;
+    height: 100%;
+}
+#datosopciones{
+    width: 100%;
+    height: 74%;
+}
+/*formulario*/
+#contact{
+    padding:10px 0 10px;
+  }
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 100%;
+    padding: 5px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+/*Color*/
+#color{
+    width: 100%;
+    height: 10%;
+    background-color: deeppink;
+}
+#coloresc{
+    width: 100%;
+    height: 25%;
+    display: block;
+}
+#coloricon{
+    width:2%;
+    height: 100%;
+    color: black;
+    display: inline-block;
+}
+#colortitulo{
+    display: inline-block;
+    width:97%;
+    height: 100%;
+}
+#coloropciones{
+    width: 100%;
+    height: 74%;
+    display: block;
+}
